@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditDeleteFilmActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/judulFilmField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CustomFieldStyle"
+                android:hint="judul film"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/deskripsi_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CustomFieldStyle"
+                android:hint="judul film"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/judulFilmField"/>
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Edit Film"
+                android:layout_marginTop="200dp"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/deskripsi_field"
+                android:background="@drawable/button_primary"/>
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hapus Film"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/editButton"
+                android:background="@drawable/button_secondary"/>
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

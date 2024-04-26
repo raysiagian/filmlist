@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Film List</string>
+    <string name="login_textheader">Login</string>
+    <string name="register_textheader">Daftar</string>
+    <string name="login_textexplanation">Login untuk melanjutkan kedalam aplikasi</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="daftar_film_label">Daftar Film</string>
+    <string name="tambahkan_film_button">Tambah Film</string>
+</resources>
